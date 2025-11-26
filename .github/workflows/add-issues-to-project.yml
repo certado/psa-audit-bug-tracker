@@ -15,6 +15,6 @@ jobs:
           # You can target a project in a different organization
           # to the issue
           project-url: https://github.com/orgs/certado/projects/5
-          github-token: ${{ secrets.GITHUB_API_TOKEN }}
+          github-token: ${{ secrets.API_TOKEN }}
           labeled: bug, enhancement
           label-operator: OR
